@@ -19,7 +19,7 @@ Parameters:
 #       Type: Canary10Percent5Minutes
 
 Resources:
-  GetHelloWorld:
+  GetPersonsWorld:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.aws.codestar.projecttemplates.handler.HelloWorldHandler
@@ -34,7 +34,7 @@ Resources:
             Path: /
             Method: get
 
-  PostHelloWorld:
+  PostPersonsWorld:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.aws.codestar.projecttemplates.handler.HelloWorldHandler
